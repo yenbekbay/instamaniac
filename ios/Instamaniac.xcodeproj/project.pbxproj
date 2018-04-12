@@ -1,0 +1,901 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E20EAB4FF0C618AA8FFFB06 /* IMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A878BDC3A0E27828DA6421 /* IMAppDelegate.m */; };
+		20003AD71B68C905009F5B72 /* PNChartLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 20003ABE1B68C905009F5B72 /* PNChartLabel.m */; };
+		20003AD81B68C905009F5B72 /* PNCircleChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 20003AC01B68C905009F5B72 /* PNCircleChart.m */; };
+		20003AD91B68C905009F5B72 /* PNColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 20003AC21B68C905009F5B72 /* PNColor.m */; };
+		20003ADA1B68C905009F5B72 /* PNGenericChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 20003AC41B68C905009F5B72 /* PNGenericChart.m */; };
+		20003ADB1B68C905009F5B72 /* PNLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 20003AC61B68C905009F5B72 /* PNLineChart.m */; };
+		20003ADC1B68C905009F5B72 /* PNLineChartData.m in Sources */ = {isa = PBXBuildFile; fileRef = 20003AC81B68C905009F5B72 /* PNLineChartData.m */; };
+		20003ADD1B68C905009F5B72 /* PNLineChartDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 20003ACA1B68C905009F5B72 /* PNLineChartDataItem.m */; };
+		202C58DB1B68F940002B362D /* IMFirstPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 202C58DA1B68F940002B362D /* IMFirstPhotoView.m */; };
+		204F3E841B6361DE007A39B3 /* IMConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 204F3E831B6361DE007A39B3 /* IMConstants.m */; };
+		2056724A1B5A250B00F05DBA /* UIColor+IMTints.m in Sources */ = {isa = PBXBuildFile; fileRef = 205672471B5A250B00F05DBA /* UIColor+IMTints.m */; };
+		2056724B1B5A250B00F05DBA /* UIFont+IMSizes.m in Sources */ = {isa = PBXBuildFile; fileRef = 205672491B5A250B00F05DBA /* UIFont+IMSizes.m */; };
+		2056724F1B5A274900F05DBA /* IMAuthorizationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2056724E1B5A274900F05DBA /* IMAuthorizationViewController.m */; };
+		205672521B5A2B0E00F05DBA /* UIImage+AYHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 205672511B5A2B0E00F05DBA /* UIImage+AYHelpers.m */; };
+		205672551B5A2B7800F05DBA /* UIColor+AYHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 205672541B5A2B7800F05DBA /* UIColor+AYHelpers.m */; };
+		205B29731B6671E300F8E4C9 /* world-low.svg in Resources */ = {isa = PBXBuildFile; fileRef = 205B29721B6671E300F8E4C9 /* world-low.svg */; };
+		205B29761B6676EF00F8E4C9 /* IMMapStatsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 205B29751B6676EF00F8E4C9 /* IMMapStatsView.m */; };
+		206167F51B67F94E008F3D8D /* IMLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 206167F41B67F94E008F3D8D /* IMLineChartView.m */; };
+		206167F81B689CE9008F3D8D /* NSDate+IMHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 206167F71B689CE9008F3D8D /* NSDate+IMHelpers.m */; };
+		2081B1331B64C3BB00CFA6D2 /* IMFollowingRankingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2081B1321B64C3BB00CFA6D2 /* IMFollowingRankingView.m */; };
+		2081B1361B64DA6100CFA6D2 /* IMStatsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2081B1351B64DA6100CFA6D2 /* IMStatsView.m */; };
+		2081B1391B64F82800CFA6D2 /* IMAlertManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2081B1381B64F82800CFA6D2 /* IMAlertManager.m */; };
+		2081B13C1B6619E600CFA6D2 /* IMLeaderboardRankingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2081B13B1B6619E600CFA6D2 /* IMLeaderboardRankingView.m */; };
+		2081B13F1B661B3E00CFA6D2 /* IMLeaderboardRankingViewCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2081B13E1B661B3E00CFA6D2 /* IMLeaderboardRankingViewCellTableViewCell.m */; };
+		20A4CED81B5A239400F1185B /* UIView+AYUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A4CED71B5A239400F1185B /* UIView+AYUtils.m */; };
+		20E380CC1B63DC40006E768C /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E380CB1B63DC40006E768C /* UIImage+ImageEffects.m */; };
+		20F8CCA71B63AB9E0024B61A /* IMUserStatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F8CCA61B63AB9E0024B61A /* IMUserStatsViewController.m */; };
+		20F8CCAD1B63BB630024B61A /* UILabel+AYHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F8CCAC1B63BB630024B61A /* UILabel+AYHelpers.m */; };
+		20F8CCB01B63BE5E0024B61A /* IMInstagramUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F8CCAF1B63BE5E0024B61A /* IMInstagramUser.m */; };
+		20F8CCB31B63BF960024B61A /* IMGlobalRankingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F8CCB21B63BF960024B61A /* IMGlobalRankingView.m */; };
+		20F8CCB61B63C0D80024B61A /* IMInstagramUserInfoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F8CCB51B63C0D80024B61A /* IMInstagramUserInfoManager.m */; };
+		223335CB285FD7724A230AD6 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9E631C303C87D0F3D1B23331 /* Settings.bundle */; };
+		270232111A7BD1A514AB9693 /* libPods-Instamaniac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A567B5D134D1FAD150CD2E5C /* libPods-Instamaniac.a */; };
+		9832D9957333813DE3096065 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C71A8CCBB5486BC719B3CC73 /* Images.xcassets */; };
+		A118FBFD845510B46FE45A27 /* LaunchScreen.xib in Sources */ = {isa = PBXBuildFile; fileRef = 405E0C4B72FAC1964CDF485F /* LaunchScreen.xib */; };
+		CC8E9AD02FD4E3CDC409E5D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7655A44B42ACB1FC3C7C1CB7 /* Foundation.framework */; };
+		E85942E640AEC6EF198F6EC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B462DD01EEABED93C167F6 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB335B767FAA724000BFABF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8F73B0018D31FC1A6B91C81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6261514AE91A44B65FF6BD09;
+			remoteInfo = Instamaniac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00B462DD01EEABED93C167F6 /* main.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		08BEABB0B877673DD914EF09 /* UnitTests-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UnitTests-Prefix.pch"; sourceTree = "<group>"; };
+		1164CA2A1DC62B0829897CF4 /* IMAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IMAppDelegate.h; sourceTree = "<group>"; };
+		20003ABB1B68C905009F5B72 /* PNChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNChart.h; sourceTree = "<group>"; };
+		20003ABC1B68C905009F5B72 /* PNChartDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNChartDelegate.h; sourceTree = "<group>"; };
+		20003ABD1B68C905009F5B72 /* PNChartLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNChartLabel.h; sourceTree = "<group>"; };
+		20003ABE1B68C905009F5B72 /* PNChartLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = PNChartLabel.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		20003ABF1B68C905009F5B72 /* PNCircleChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNCircleChart.h; sourceTree = "<group>"; };
+		20003AC01B68C905009F5B72 /* PNCircleChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = PNCircleChart.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		20003AC11B68C905009F5B72 /* PNColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNColor.h; sourceTree = "<group>"; };
+		20003AC21B68C905009F5B72 /* PNColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNColor.m; sourceTree = "<group>"; };
+		20003AC31B68C905009F5B72 /* PNGenericChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNGenericChart.h; sourceTree = "<group>"; };
+		20003AC41B68C905009F5B72 /* PNGenericChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNGenericChart.m; sourceTree = "<group>"; };
+		20003AC51B68C905009F5B72 /* PNLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNLineChart.h; sourceTree = "<group>"; };
+		20003AC61B68C905009F5B72 /* PNLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNLineChart.m; sourceTree = "<group>"; };
+		20003AC71B68C905009F5B72 /* PNLineChartData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNLineChartData.h; sourceTree = "<group>"; };
+		20003AC81B68C905009F5B72 /* PNLineChartData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNLineChartData.m; sourceTree = "<group>"; };
+		20003AC91B68C905009F5B72 /* PNLineChartDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNLineChartDataItem.h; sourceTree = "<group>"; };
+		20003ACA1B68C905009F5B72 /* PNLineChartDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNLineChartDataItem.m; sourceTree = "<group>"; };
+		202C58DA1B68F940002B362D /* IMFirstPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMFirstPhotoView.m; sourceTree = "<group>"; };
+		204F3E821B6361DE007A39B3 /* IMConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMConstants.h; sourceTree = "<group>"; };
+		204F3E831B6361DE007A39B3 /* IMConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMConstants.m; sourceTree = "<group>"; };
+		205672461B5A250B00F05DBA /* UIColor+IMTints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+IMTints.h"; sourceTree = "<group>"; };
+		205672471B5A250B00F05DBA /* UIColor+IMTints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+IMTints.m"; sourceTree = "<group>"; };
+		205672481B5A250B00F05DBA /* UIFont+IMSizes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+IMSizes.h"; sourceTree = "<group>"; };
+		205672491B5A250B00F05DBA /* UIFont+IMSizes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+IMSizes.m"; sourceTree = "<group>"; };
+		2056724C1B5A255A00F05DBA /* AYMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYMacros.h; sourceTree = "<group>"; };
+		2056724D1B5A274900F05DBA /* IMAuthorizationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMAuthorizationViewController.h; sourceTree = "<group>"; };
+		2056724E1B5A274900F05DBA /* IMAuthorizationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMAuthorizationViewController.m; sourceTree = "<group>"; };
+		205672501B5A2B0E00F05DBA /* UIImage+AYHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AYHelpers.h"; sourceTree = "<group>"; };
+		205672511B5A2B0E00F05DBA /* UIImage+AYHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AYHelpers.m"; sourceTree = "<group>"; };
+		205672531B5A2B7800F05DBA /* UIColor+AYHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+AYHelpers.h"; sourceTree = "<group>"; };
+		205672541B5A2B7800F05DBA /* UIColor+AYHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+AYHelpers.m"; sourceTree = "<group>"; };
+		205B03521BB7070F00F1C709 /* Pods-Instamaniac.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Pods-Instamaniac.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Instamaniac/Pods-Instamaniac.debug.xcconfig"; sourceTree = "<group>"; };
+		205B03531BB7070F00F1C709 /* Pods-Instamaniac.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Pods-Instamaniac.release.xcconfig"; path = "Pods/Target Support Files/Pods-Instamaniac/Pods-Instamaniac.release.xcconfig"; sourceTree = "<group>"; };
+		205B29721B6671E300F8E4C9 /* world-low.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "world-low.svg"; path = "../world-low.svg"; sourceTree = "<group>"; };
+		205B29741B6676EF00F8E4C9 /* IMMapStatsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMMapStatsView.h; sourceTree = "<group>"; };
+		205B29751B6676EF00F8E4C9 /* IMMapStatsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMMapStatsView.m; sourceTree = "<group>"; };
+		206167F31B67F94E008F3D8D /* IMLineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMLineChartView.h; sourceTree = "<group>"; };
+		206167F41B67F94E008F3D8D /* IMLineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMLineChartView.m; sourceTree = "<group>"; };
+		206167F61B689CE9008F3D8D /* NSDate+IMHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+IMHelpers.h"; sourceTree = "<group>"; };
+		206167F71B689CE9008F3D8D /* NSDate+IMHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+IMHelpers.m"; sourceTree = "<group>"; };
+		2081131C207FB50D00796E6F /* Secrets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Secrets.h; sourceTree = "<group>"; };
+		2081B1311B64C3BB00CFA6D2 /* IMFollowingRankingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMFollowingRankingView.h; sourceTree = "<group>"; };
+		2081B1321B64C3BB00CFA6D2 /* IMFollowingRankingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMFollowingRankingView.m; sourceTree = "<group>"; };
+		2081B1341B64DA6100CFA6D2 /* IMStatsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMStatsView.h; sourceTree = "<group>"; };
+		2081B1351B64DA6100CFA6D2 /* IMStatsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMStatsView.m; sourceTree = "<group>"; };
+		2081B1371B64F82800CFA6D2 /* IMAlertManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMAlertManager.h; sourceTree = "<group>"; };
+		2081B1381B64F82800CFA6D2 /* IMAlertManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMAlertManager.m; sourceTree = "<group>"; };
+		2081B13A1B6619E600CFA6D2 /* IMLeaderboardRankingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMLeaderboardRankingView.h; sourceTree = "<group>"; };
+		2081B13B1B6619E600CFA6D2 /* IMLeaderboardRankingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMLeaderboardRankingView.m; sourceTree = "<group>"; };
+		2081B13D1B661B3E00CFA6D2 /* IMLeaderboardRankingViewCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMLeaderboardRankingViewCellTableViewCell.h; sourceTree = "<group>"; };
+		2081B13E1B661B3E00CFA6D2 /* IMLeaderboardRankingViewCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMLeaderboardRankingViewCellTableViewCell.m; sourceTree = "<group>"; };
+		20A4CED61B5A239400F1185B /* UIView+AYUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AYUtils.h"; sourceTree = "<group>"; };
+		20A4CED71B5A239400F1185B /* UIView+AYUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AYUtils.m"; sourceTree = "<group>"; };
+		20A878BDC3A0E27828DA6421 /* IMAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IMAppDelegate.m; sourceTree = "<group>"; };
+		20D7F4881B6748BF00AE2C3D /* IMFirstPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMFirstPhotoView.h; sourceTree = "<group>"; };
+		20E380CA1B63DC40006E768C /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		20E380CB1B63DC40006E768C /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		20F8CCA51B63AB9E0024B61A /* IMUserStatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMUserStatsViewController.h; sourceTree = "<group>"; };
+		20F8CCA61B63AB9E0024B61A /* IMUserStatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMUserStatsViewController.m; sourceTree = "<group>"; };
+		20F8CCAB1B63BB630024B61A /* UILabel+AYHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+AYHelpers.h"; sourceTree = "<group>"; };
+		20F8CCAC1B63BB630024B61A /* UILabel+AYHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+AYHelpers.m"; sourceTree = "<group>"; };
+		20F8CCAE1B63BE5E0024B61A /* IMInstagramUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMInstagramUser.h; sourceTree = "<group>"; };
+		20F8CCAF1B63BE5E0024B61A /* IMInstagramUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMInstagramUser.m; sourceTree = "<group>"; };
+		20F8CCB11B63BF960024B61A /* IMGlobalRankingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMGlobalRankingView.h; sourceTree = "<group>"; };
+		20F8CCB21B63BF960024B61A /* IMGlobalRankingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMGlobalRankingView.m; sourceTree = "<group>"; };
+		20F8CCB41B63C0D80024B61A /* IMInstagramUserInfoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMInstagramUserInfoManager.h; sourceTree = "<group>"; };
+		20F8CCB51B63C0D80024B61A /* IMInstagramUserInfoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMInstagramUserInfoManager.m; sourceTree = "<group>"; };
+		23EABF359B400AE95DC1915F /* UnitTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
+		258CE156508FCED8586D2942 /* Instamaniac-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Instamaniac-Prefix.pch"; sourceTree = "<group>"; };
+		26487FFC4C1DBC7691FA142C /* Instamaniac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instamaniac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E6A27AD3FE439172B71AFDE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		405E0C4B72FAC1964CDF485F /* LaunchScreen.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		7655A44B42ACB1FC3C7C1CB7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9E631C303C87D0F3D1B23331 /* Settings.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		A567B5D134D1FAD150CD2E5C /* libPods-Instamaniac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Instamaniac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C71A8CCBB5486BC719B3CC73 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DDEFC0E6BD517543EEBB9926 /* InstamaniacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstamaniacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC3D8D99AC922A133A247AA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC8E9AD02FD4E3CDC409E5D0 /* Foundation.framework in Frameworks */,
+				270232111A7BD1A514AB9693 /* libPods-Instamaniac.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B51C63603DAC5EC3F4A280E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0262F5B60AF10046376CE2EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47E9AD193B58E08323CC3D8D /* iOS */,
+				A567B5D134D1FAD150CD2E5C /* libPods-Instamaniac.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0E720E33BBD958E20C36C26D /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				20F8CCB41B63C0D80024B61A /* IMInstagramUserInfoManager.h */,
+				20F8CCB51B63C0D80024B61A /* IMInstagramUserInfoManager.m */,
+				2081B1371B64F82800CFA6D2 /* IMAlertManager.h */,
+				2081B1381B64F82800CFA6D2 /* IMAlertManager.m */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		15AC9D446994107CF35BAE45 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				205B03521BB7070F00F1C709 /* Pods-Instamaniac.debug.xcconfig */,
+				205B03531BB7070F00F1C709 /* Pods-Instamaniac.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1D0BD234640824313355DF26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26487FFC4C1DBC7691FA142C /* Instamaniac.app */,
+				DDEFC0E6BD517543EEBB9926 /* InstamaniacTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E75FAD3D93B3030B9D0A462 /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				405E0C4B72FAC1964CDF485F /* LaunchScreen.xib */,
+			);
+			path = Nibs;
+			sourceTree = "<group>";
+		};
+		20003AB61B68C905009F5B72 /* PNChart */ = {
+			isa = PBXGroup;
+			children = (
+				20003ABB1B68C905009F5B72 /* PNChart.h */,
+				20003ABC1B68C905009F5B72 /* PNChartDelegate.h */,
+				20003ABD1B68C905009F5B72 /* PNChartLabel.h */,
+				20003ABE1B68C905009F5B72 /* PNChartLabel.m */,
+				20003ABF1B68C905009F5B72 /* PNCircleChart.h */,
+				20003AC01B68C905009F5B72 /* PNCircleChart.m */,
+				20003AC11B68C905009F5B72 /* PNColor.h */,
+				20003AC21B68C905009F5B72 /* PNColor.m */,
+				20003AC31B68C905009F5B72 /* PNGenericChart.h */,
+				20003AC41B68C905009F5B72 /* PNGenericChart.m */,
+				20003AC51B68C905009F5B72 /* PNLineChart.h */,
+				20003AC61B68C905009F5B72 /* PNLineChart.m */,
+				20003AC71B68C905009F5B72 /* PNLineChartData.h */,
+				20003AC81B68C905009F5B72 /* PNLineChartData.m */,
+				20003AC91B68C905009F5B72 /* PNLineChartDataItem.h */,
+				20003ACA1B68C905009F5B72 /* PNLineChartDataItem.m */,
+			);
+			path = PNChart;
+			sourceTree = "<group>";
+		};
+		293B1FF1F7738B1386B19EE6 = {
+			isa = PBXGroup;
+			children = (
+				911989D440362D81A8ECBA98 /* Instamaniac */,
+				3581D75829037B7EA3DDB7A7 /* InstamaniacTests */,
+				0262F5B60AF10046376CE2EE /* Frameworks */,
+				1D0BD234640824313355DF26 /* Products */,
+				15AC9D446994107CF35BAE45 /* Pods */,
+			);
+			indentWidth = 4;
+			sourceTree = "<group>";
+			tabWidth = 4;
+			usesTabs = 0;
+		};
+		3581D75829037B7EA3DDB7A7 /* InstamaniacTests */ = {
+			isa = PBXGroup;
+			children = (
+				3BAEBB349D67FE1925E2516D /* Resources */,
+				693EB03BA1CA1F9F1F6487C0 /* Helpers */,
+				F1BBD58ED21D1885196088CB /* Tests */,
+			);
+			path = InstamaniacTests;
+			sourceTree = "<group>";
+		};
+		3BAEBB349D67FE1925E2516D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				23EABF359B400AE95DC1915F /* UnitTests-Info.plist */,
+				08BEABB0B877673DD914EF09 /* UnitTests-Prefix.pch */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		47E9AD193B58E08323CC3D8D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7655A44B42ACB1FC3C7C1CB7 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4C8698995EC164D37C584DA0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				204F3E821B6361DE007A39B3 /* IMConstants.h */,
+				204F3E831B6361DE007A39B3 /* IMConstants.m */,
+				2056724C1B5A255A00F05DBA /* AYMacros.h */,
+				20F8CCAB1B63BB630024B61A /* UILabel+AYHelpers.h */,
+				20F8CCAC1B63BB630024B61A /* UILabel+AYHelpers.m */,
+				205672531B5A2B7800F05DBA /* UIColor+AYHelpers.h */,
+				205672541B5A2B7800F05DBA /* UIColor+AYHelpers.m */,
+				20A4CED61B5A239400F1185B /* UIView+AYUtils.h */,
+				20A4CED71B5A239400F1185B /* UIView+AYUtils.m */,
+				205672501B5A2B0E00F05DBA /* UIImage+AYHelpers.h */,
+				205672511B5A2B0E00F05DBA /* UIImage+AYHelpers.m */,
+				205672461B5A250B00F05DBA /* UIColor+IMTints.h */,
+				205672471B5A250B00F05DBA /* UIColor+IMTints.m */,
+				205672481B5A250B00F05DBA /* UIFont+IMSizes.h */,
+				205672491B5A250B00F05DBA /* UIFont+IMSizes.m */,
+				20E380CA1B63DC40006E768C /* UIImage+ImageEffects.h */,
+				20E380CB1B63DC40006E768C /* UIImage+ImageEffects.m */,
+				206167F61B689CE9008F3D8D /* NSDate+IMHelpers.h */,
+				206167F71B689CE9008F3D8D /* NSDate+IMHelpers.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		5C89043F0E6A58C470720EEB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C71A8CCBB5486BC719B3CC73 /* Images.xcassets */,
+				1E75FAD3D93B3030B9D0A462 /* Nibs */,
+				7C5ABD2207037608709A4FCB /* Other-Sources */,
+				9E631C303C87D0F3D1B23331 /* Settings.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		693EB03BA1CA1F9F1F6487C0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		6A8B46C308919D07323DCA16 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				20F8CCB11B63BF960024B61A /* IMGlobalRankingView.h */,
+				20F8CCB21B63BF960024B61A /* IMGlobalRankingView.m */,
+				2081B1311B64C3BB00CFA6D2 /* IMFollowingRankingView.h */,
+				2081B1321B64C3BB00CFA6D2 /* IMFollowingRankingView.m */,
+				2081B13A1B6619E600CFA6D2 /* IMLeaderboardRankingView.h */,
+				2081B13B1B6619E600CFA6D2 /* IMLeaderboardRankingView.m */,
+				2081B13D1B661B3E00CFA6D2 /* IMLeaderboardRankingViewCellTableViewCell.h */,
+				2081B13E1B661B3E00CFA6D2 /* IMLeaderboardRankingViewCellTableViewCell.m */,
+				205B29741B6676EF00F8E4C9 /* IMMapStatsView.h */,
+				205B29751B6676EF00F8E4C9 /* IMMapStatsView.m */,
+				20D7F4881B6748BF00AE2C3D /* IMFirstPhotoView.h */,
+				202C58DA1B68F940002B362D /* IMFirstPhotoView.m */,
+				206167F31B67F94E008F3D8D /* IMLineChartView.h */,
+				206167F41B67F94E008F3D8D /* IMLineChartView.m */,
+				2081B1341B64DA6100CFA6D2 /* IMStatsView.h */,
+				2081B1351B64DA6100CFA6D2 /* IMStatsView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7C5ABD2207037608709A4FCB /* Other-Sources */ = {
+			isa = PBXGroup;
+			children = (
+				205B29721B6671E300F8E4C9 /* world-low.svg */,
+				2E6A27AD3FE439172B71AFDE /* Info.plist */,
+				258CE156508FCED8586D2942 /* Instamaniac-Prefix.pch */,
+				00B462DD01EEABED93C167F6 /* main.m */,
+			);
+			path = "Other-Sources";
+			sourceTree = "<group>";
+		};
+		8FF19B0EFD482A615E12B03E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				20F8CCAE1B63BE5E0024B61A /* IMInstagramUser.h */,
+				20F8CCAF1B63BE5E0024B61A /* IMInstagramUser.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		911989D440362D81A8ECBA98 /* Instamaniac */ = {
+			isa = PBXGroup;
+			children = (
+				8FF19B0EFD482A615E12B03E /* Models */,
+				6A8B46C308919D07323DCA16 /* Views */,
+				FCA5EA1887706258C5BC4DF4 /* Controllers */,
+				0E720E33BBD958E20C36C26D /* Managers */,
+				4C8698995EC164D37C584DA0 /* Helpers */,
+				FC669F5A99920804D2134EA7 /* Libraries */,
+				5C89043F0E6A58C470720EEB /* Resources */,
+				2081131C207FB50D00796E6F /* Secrets.h */,
+			);
+			path = Instamaniac;
+			sourceTree = "<group>";
+		};
+		F1BBD58ED21D1885196088CB /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		FC669F5A99920804D2134EA7 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				20003AB61B68C905009F5B72 /* PNChart */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		FCA5EA1887706258C5BC4DF4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1164CA2A1DC62B0829897CF4 /* IMAppDelegate.h */,
+				20A878BDC3A0E27828DA6421 /* IMAppDelegate.m */,
+				2056724D1B5A274900F05DBA /* IMAuthorizationViewController.h */,
+				2056724E1B5A274900F05DBA /* IMAuthorizationViewController.m */,
+				20F8CCA51B63AB9E0024B61A /* IMUserStatsViewController.h */,
+				20F8CCA61B63AB9E0024B61A /* IMUserStatsViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6261514AE91A44B65FF6BD09 /* Instamaniac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78B0F61610806291F1725C91 /* Build configuration list for PBXNativeTarget "Instamaniac" */;
+			buildPhases = (
+				1F5B8008750AF8F57501DDBA /* Check Pods Manifest.lock */,
+				DD1E7D942D003E8FC9E4F467 /* Sources */,
+				AC3D8D99AC922A133A247AA5 /* Frameworks */,
+				43EB7C4E96659F784852EE24 /* Resources */,
+				81296E8CAD0D6ECA5CB9F318 /* Copy Pods Resources */,
+				20940AB41BB709C300AAC779 /* ShellScript */,
+				4FB76B769359D91121F51FF8 /* Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Instamaniac;
+			productName = Instamaniac;
+			productReference = 26487FFC4C1DBC7691FA142C /* Instamaniac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F18A6354808EC74494E05E7B /* InstamaniacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AA6FC3B52C691F7DBFC69FD /* Build configuration list for PBXNativeTarget "InstamaniacTests" */;
+			buildPhases = (
+				DD2DA6DAFC5F891318A5F78D /* Check Pods Manifest.lock */,
+				7B8AAD35AF66FA38004168A9 /* Sources */,
+				B51C63603DAC5EC3F4A280E2 /* Frameworks */,
+				6D0E211EBC198B15F36BDB82 /* Resources */,
+				31AFF7E14665ACF533C13D10 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6689B1B644067CFD07A9A38 /* PBXTargetDependency */,
+			);
+			name = InstamaniacTests;
+			productName = UnitTests;
+			productReference = DDEFC0E6BD517543EEBB9926 /* InstamaniacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8F73B0018D31FC1A6B91C81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IM;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Ayan Yenbekbay";
+				TargetAttributes = {
+					6261514AE91A44B65FF6BD09 = {
+						DevelopmentTeam = X5764AN68D;
+					};
+				};
+			};
+			buildConfigurationList = F2A08FCCFF2B3E5DE0596CD4 /* Build configuration list for PBXProject "Instamaniac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 293B1FF1F7738B1386B19EE6;
+			productRefGroup = 1D0BD234640824313355DF26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6261514AE91A44B65FF6BD09 /* Instamaniac */,
+				F18A6354808EC74494E05E7B /* InstamaniacTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43EB7C4E96659F784852EE24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9832D9957333813DE3096065 /* Images.xcassets in Resources */,
+				223335CB285FD7724A230AD6 /* Settings.bundle in Resources */,
+				205B29731B6671E300F8E4C9 /* world-low.svg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D0E211EBC198B15F36BDB82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F5B8008750AF8F57501DDBA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		20940AB41BB709C300AAC779 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/Fabric.framework/run\" 337e6662c13dc165ee9a5114becf5ff652b87ff1 bd9cb4e47506f14d584ea3b5dcc675ed06838ee850d59f876f81ce0267adcefd";
+		};
+		31AFF7E14665ACF533C13D10 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FB76B769359D91121F51FF8 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Instamaniac/Pods-Instamaniac-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81296E8CAD0D6ECA5CB9F318 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Instamaniac/Pods-Instamaniac-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD2DA6DAFC5F891318A5F78D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B8AAD35AF66FA38004168A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD1E7D942D003E8FC9E4F467 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20003ADB1B68C905009F5B72 /* PNLineChart.m in Sources */,
+				20E380CC1B63DC40006E768C /* UIImage+ImageEffects.m in Sources */,
+				2056724F1B5A274900F05DBA /* IMAuthorizationViewController.m in Sources */,
+				20003ADA1B68C905009F5B72 /* PNGenericChart.m in Sources */,
+				2081B1331B64C3BB00CFA6D2 /* IMFollowingRankingView.m in Sources */,
+				1E20EAB4FF0C618AA8FFFB06 /* IMAppDelegate.m in Sources */,
+				206167F81B689CE9008F3D8D /* NSDate+IMHelpers.m in Sources */,
+				20003ADD1B68C905009F5B72 /* PNLineChartDataItem.m in Sources */,
+				2056724A1B5A250B00F05DBA /* UIColor+IMTints.m in Sources */,
+				2081B13C1B6619E600CFA6D2 /* IMLeaderboardRankingView.m in Sources */,
+				20F8CCA71B63AB9E0024B61A /* IMUserStatsViewController.m in Sources */,
+				2081B1391B64F82800CFA6D2 /* IMAlertManager.m in Sources */,
+				20F8CCAD1B63BB630024B61A /* UILabel+AYHelpers.m in Sources */,
+				20F8CCB01B63BE5E0024B61A /* IMInstagramUser.m in Sources */,
+				A118FBFD845510B46FE45A27 /* LaunchScreen.xib in Sources */,
+				E85942E640AEC6EF198F6EC7 /* main.m in Sources */,
+				202C58DB1B68F940002B362D /* IMFirstPhotoView.m in Sources */,
+				204F3E841B6361DE007A39B3 /* IMConstants.m in Sources */,
+				2081B13F1B661B3E00CFA6D2 /* IMLeaderboardRankingViewCellTableViewCell.m in Sources */,
+				206167F51B67F94E008F3D8D /* IMLineChartView.m in Sources */,
+				20F8CCB31B63BF960024B61A /* IMGlobalRankingView.m in Sources */,
+				20003AD91B68C905009F5B72 /* PNColor.m in Sources */,
+				20003AD81B68C905009F5B72 /* PNCircleChart.m in Sources */,
+				20F8CCB61B63C0D80024B61A /* IMInstagramUserInfoManager.m in Sources */,
+				2081B1361B64DA6100CFA6D2 /* IMStatsView.m in Sources */,
+				20003AD71B68C905009F5B72 /* PNChartLabel.m in Sources */,
+				205B29761B6676EF00F8E4C9 /* IMMapStatsView.m in Sources */,
+				205672521B5A2B0E00F05DBA /* UIImage+AYHelpers.m in Sources */,
+				205672551B5A2B7800F05DBA /* UIColor+AYHelpers.m in Sources */,
+				2056724B1B5A250B00F05DBA /* UIFont+IMSizes.m in Sources */,
+				20003ADC1B68C905009F5B72 /* PNLineChartData.m in Sources */,
+				20A4CED81B5A239400F1185B /* UIView+AYUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6689B1B644067CFD07A9A38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6261514AE91A44B65FF6BD09 /* Instamaniac */;
+			targetProxy = FB335B767FAA724000BFABF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		44E71CA761DC1FA5D557E053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 205B03521BB7070F00F1C709 /* Pods-Instamaniac.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Instamaniac/Resources/Other-Sources/Instamaniac-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = "Instamaniac/Resources/Other-Sources/Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.yenbekbay.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		528C5400CAEEC478F4933EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5AAA59D3CC2E6EF415F1CCCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Instamaniac.app/Instamaniac";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PREFIX_HEADER = "UnitTests/Resources/UnitTests-Prefix.pch";
+				INFOPLIST_FILE = "UnitTests/Resources/UnitTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.yenbekbay.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		6D9D3BE9A39802A823B17203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Instamaniac.app/Instamaniac";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PREFIX_HEADER = "UnitTests/Resources/UnitTests-Prefix.pch";
+				INFOPLIST_FILE = "UnitTests/Resources/UnitTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.yenbekbay.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6E7316F48DEC09EC755048DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 205B03531BB7070F00F1C709 /* Pods-Instamaniac.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Instamaniac/Resources/Other-Sources/Instamaniac-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				INFOPLIST_FILE = "Instamaniac/Resources/Other-Sources/Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.yenbekbay.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B399A5DFF20383E925FF055F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE = "";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6AA6FC3B52C691F7DBFC69FD /* Build configuration list for PBXNativeTarget "InstamaniacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AAA59D3CC2E6EF415F1CCCB /* Release */,
+				6D9D3BE9A39802A823B17203 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78B0F61610806291F1725C91 /* Build configuration list for PBXNativeTarget "Instamaniac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E7316F48DEC09EC755048DD /* Release */,
+				44E71CA761DC1FA5D557E053 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2A08FCCFF2B3E5DE0596CD4 /* Build configuration list for PBXProject "Instamaniac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528C5400CAEEC478F4933EC1 /* Debug */,
+				B399A5DFF20383E925FF055F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8F73B0018D31FC1A6B91C81 /* Project object */;
+}

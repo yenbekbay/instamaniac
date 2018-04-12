@@ -1,0 +1,40 @@
+primary_category "Photo & Video"
+secondary_category "Entertainment"
+
+price_tier 0
+
+screenshots_path "./screenshots"
+app_icon './AppIcon.png'
+app_rating_config_path "./ratings.json"
+copyright "Ayan Yenbekbay"
+
+name({
+  'en_US' => "Kogershin - трекинг посылок Казпочты"
+})
+
+description({
+  'en_US' => "Kogershin - это самый удобный способ следить за вашими посылками через сервис Казпочты.
+
+  С Kogershin вы сможете:
+  • Очень просто добавлять посылки в неограниченном количестве
+  • Получать оповещения об обновлении статуса ваших посылок
+  • Видеть местонахождение ваших доставленных посылок
+
+  Если вам нравится Kogershin, пожалуйста, уделите нам минуту и поставьте приложению хороший рейтинг. И если у вас есть какое-либо предложение или отзыв, напишите мне на ayan.yenb@gmail.com."
+})
+
+keywords(
+  'en_US' => "kazpost,казпочта,трекинг,tracking,mykazpost,посылки,следить,статус"
+)
+
+app_review_information(
+  first_name: "Ayan",
+  last_name: "Yenbekbay",
+  phone_number: "6126444413",
+  email_address: "ayan.yenb@gmail.com"
+)
+automatic_release true
+
+success do
+  system("say 'Successfully submitted a new version.'")
+end

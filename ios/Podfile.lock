@@ -1,0 +1,125 @@
+PODS:
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Analytics/Core-iOS (2.0.10):
+    - TRVSDictionaryWithCaseInsensitivity (= 0.0.2)
+  - Analytics/Segmentio (2.0.10):
+    - Analytics/Core-iOS
+  - Bolts/Tasks (1.2.0)
+  - ChameleonFramework (1.2.1):
+    - ChameleonFramework/Default (= 1.2.1)
+  - ChameleonFramework/Default (1.2.1)
+  - CMDQueryStringSerialization (0.4.1):
+    - ISO8601
+  - CocoaLumberjack (2.2.0):
+    - CocoaLumberjack/Default (= 2.2.0)
+    - CocoaLumberjack/Extensions (= 2.2.0)
+  - CocoaLumberjack/Core (2.2.0)
+  - CocoaLumberjack/Default (2.2.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.2.0):
+    - CocoaLumberjack/Default
+  - Crashlytics (3.3.1)
+  - CRToast (0.0.7)
+  - Fabric (1.5.1):
+    - Fabric/Base (= 1.5.1)
+  - Fabric/Base (1.5.1)
+  - FSInteractiveMap (0.1.0)
+  - FSOpenInInstagram (1.0)
+  - Google-Mobile-Ads-SDK (7.3.1)
+  - InstagramKit (3.6.5):
+    - AFNetworking (~> 2.0)
+  - IOS-Offline-GeoCoder (0.0.3)
+  - ISO8601 (0.3.0)
+  - JGProgressHUD (1.2.7)
+  - OpenSans (1.0.3)
+  - Parse (1.7.5.3):
+    - Bolts/Tasks (>= 1.2.0)
+  - pop (1.0.7)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
+  - SimpleAuth/Core (0.3.9):
+    - CMDQueryStringSerialization
+    - ReactiveCocoa
+  - SimpleAuth/Instagram (0.3.9):
+    - SimpleAuth/Core
+  - SimulatorStatusMagic (1.7)
+  - TRVSDictionaryWithCaseInsensitivity (0.0.2)
+  - UICountingLabel (1.2.0)
+
+DEPENDENCIES:
+  - Analytics/Segmentio
+  - ChameleonFramework
+  - CocoaLumberjack
+  - Crashlytics
+  - CRToast
+  - Fabric
+  - FSInteractiveMap
+  - FSOpenInInstagram
+  - Google-Mobile-Ads-SDK
+  - InstagramKit
+  - IOS-Offline-GeoCoder
+  - JGProgressHUD
+  - OpenSans
+  - Parse
+  - pop
+  - SDWebImage
+  - SimpleAuth/Instagram
+  - SimulatorStatusMagic
+  - UICountingLabel
+
+SPEC CHECKSUMS:
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  Analytics: a186d9d57dab58b415b18a29996370c72350c5c4
+  Bolts: d176cb1e0012175589e389a9db49b85e27787576
+  ChameleonFramework: 3476f813ac1615aef0a9a958f05520dfca47e09d
+  CMDQueryStringSerialization: 4bb0a2f5e7d8d8678d911d88072274952cbef4e5
+  CocoaLumberjack: 17fe8581f84914d5d7e6360f7c70022b173c3ae0
+  Crashlytics: 0e61bdda9def51f1e99720f804eebe94865442b2
+  CRToast: 99a28f4387def43b439ad88f957ce31357ff7373
+  Fabric: 03c3b3fe77e11a2bc31421b989a9c7adaa4779a5
+  FSInteractiveMap: 43a8d1388056b21da95194528fc37e222c7dad50
+  FSOpenInInstagram: 5c3a0721f4f3b1529c1b4768e11c579e5e61bef2
+  Google-Mobile-Ads-SDK: 3647bfddc7384c514ab96a8bed86d98b31e623e4
+  InstagramKit: 90759652c8c4579bfaa5c9f001927e162c3e1c66
+  IOS-Offline-GeoCoder: 59a924c44784fa46aa60a4505422258a6bb4ef02
+  ISO8601: 8d8a22d5edf0554a1cf75bac028c76c1dc0ffaef
+  JGProgressHUD: a45c1d16adddf7e38092ce3f0d71d3955d2de2ec
+  OpenSans: 33078846463eae780aa5f82986b51cce085f970d
+  Parse: 373adbb1ad2e34d383542c3b28f678c49ebe4881
+  pop: 628ffc631644601567ee8bfaaaea493ebd7d0923
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+  SimpleAuth: bc7d594f90711a7e6ef7624dce5aa8c8b09770ab
+  SimulatorStatusMagic: 46c90a12f73abeda6d7c16876e1e0998b6ca5f4f
+  TRVSDictionaryWithCaseInsensitivity: 51d2ccf52c6d645d27b63467a98fa02c556e01b0
+  UICountingLabel: 1db4e7d023e1762171eb226d6dff47a7a84f27aa
+
+COCOAPODS: 0.39.0
